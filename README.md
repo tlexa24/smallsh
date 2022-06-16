@@ -21,8 +21,8 @@ The shell expands any instance of '$$; into the process ID of smallsh itself
 ### 4. Built-in Commands
 The shell supports three built-in commands:
 * exit
-*   Exits the shell. 
-*   When ran, the shell kills any other processes that have been started before teminating the shell itself. Includes processes running in the background
+*     Exits the shell. 
+*     When ran, the shell kills any other processes that have been started before teminating the shell itself. Includes processes running in the background
 * cd
 *   Changes the working directory of smallsh
 *   With no arguments, it changes to the directory specified in the HOME environment variable
